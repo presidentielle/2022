@@ -28,7 +28,7 @@ function select(nb) {
     document.getElementById("hider_div4").style.animationPlayState = "running";
     var p = new URLSearchParams();
     p.append("R", nb.toString());
-    setTimeout(function () { window.location.href = "result.html?"+ p.toString(); }, 1400);
+    setTimeout(function () { window.location.href = "result.html?"+ p.toString(); }, 1200);
 }
 
 ///

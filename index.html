@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Présidentielles 2022 - Accueil</title>
+    <script>
+        function explain() {
+            document.getElementsByClassName("start_div")[0].style.animationPlayState = "running";
+            document.getElementsByClassName("explain_div")[0].style.animationPlayState = "running";
+        }
+        function programs() {
+            document.getElementById("hider_div1").style.animationPlayState = "running";
+            document.getElementById("hider_div2").style.animationPlayState = "running";
+            document.getElementById("hider_div3").style.animationPlayState = "running";
+            document.getElementById("hider_div4").style.animationPlayState = "running";
+            setTimeout(function() { window.location.href="programs.html"; }, 1400);
+        }
+    </script>
+</head>
+<body>
+    <div class="start_div">
+        <p class="text_white start_text">Quel programme vous correspond le mieux ?</p>
+        <button class="btn btn_grad start_btn" type="button" onclick="explain()">Démarrer</button>
+    </div>
+    <div class="explain_div">
+        <p class="text_grad explain_text">
+            Plusieurs programmes vont vous être présentés.<br/>
+            Chaque programme est représenté par 10 principales mesures, vous devez choisir <strong>celui</strong> que vous préférez.
+        </p>
+        <div class="explain_btn_div">
+            <button class="btn btn_glow explain_btn" type="button" onclick="programs()">C'est parti !</button>
+        </div>
+    </div>
+    <div class="hider" id="hider_div1"></div>
+    <div class="hider" id="hider_div2"></div>
+    <div class="hider" id="hider_div3"></div>
+    <div class="hider" id="hider_div4"></div>
+</body>
+</html>

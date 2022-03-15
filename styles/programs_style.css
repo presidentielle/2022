@@ -281,7 +281,7 @@ li {
 
 @keyframes hider_slide {
     from { height: 0; }
-    to { height: 300vh; }
+    to { height: 350vh; }
 }
 
 /*

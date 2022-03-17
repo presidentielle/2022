@@ -12,11 +12,11 @@ function select(nb) {
     document.getElementById("program_link").href = programsList[nb];
 }
 
-const candidatesList = ["Jean-Luc Mélenchon", "Valérie Pécresse", "Anne Hidalgo", "Natalie Arthaud", "Marine Le Pen", "Nicolas Dupont-Aignan", "Yannick Jadot", "Philippe Poutou", "Jean Lassalle"];
-const partysList = ["La France insoumise (LFI)", "Les Républicains (LR)", "Parti socialiste (PS)", "Lutte ouvrière (LO)", "Rassemblement national (RN)", "Debout la France (DLF)", "Europe Écologie Les Verts (EELV)", "Nouveau Parti anticapitaliste (NPA)", "Résistons (R!)"];
-const colorsList = ["#cc2443", "#0066cc", "#FF8080", "#bb0000", "#0D378A", "#0082C4", "#00c000", "#bb0000", "#26c4ec"];
-const initialsCandList = ["jlm", "vp", "ah", "na", "mlp", "nda", "yj", "pp", "jl"];
-const initialsPartList = ["lfi", "lr", "ps", "lo", "rn", "dlf", "eelv", "npa", "r"];
+const candidatesList = ["Jean-Luc Mélenchon", "Valérie Pécresse", "Anne Hidalgo", "Natalie Arthaud", "Marine Le Pen", "Nicolas Dupont-Aignan", "Yannick Jadot", "Philippe Poutou", "Jean Lassalle", "Éric Zemmour"];
+const partysList = ["La France insoumise (LFI)", "Les Républicains (LR)", "Parti socialiste (PS)", "Lutte ouvrière (LO)", "Rassemblement national (RN)", "Debout la France (DLF)", "Europe Écologie Les Verts (EELV)", "Nouveau Parti anticapitaliste (NPA)", "Résistons (R!)", "Reconquête (R)"];
+const colorsList = ["#cc2443", "#0066cc", "#FF8080", "#bb0000", "#0D378A", "#0082C4", "#00c000", "#bb0000", "#26c4ec", "#0D378A"];
+const initialsCandList = ["jlm", "vp", "ah", "na", "mlp", "nda", "yj", "pp", "jl", "ez"];
+const initialsPartList = ["lfi", "lr", "ps", "lo", "rn", "dlf", "eelv", "npa", "r", "rc"];
 const programsList = [
     "https://melenchon2022.fr/programme/",
     "https://valeriepecresse.fr/projets/",
@@ -26,7 +26,8 @@ const programsList = [
     "https://2022nda.fr/",
     "https://www.jadot2022.fr/programme",
     "https://poutou2022.org/programme",
-    "https://jl2022.fr/#projet"
+    "https://jl2022.fr/#projet",
+    "https://programme.zemmour2022.fr/"
 ];
 const infosList = [
     "Président du groupe parlementaire de LFI à l'Assemblée nationale et quatrième au premier tour des dernières élections présidentielles, il est candidat depuis le 8 novembre 2020. Il a recueilli 150 000 signatures sur une plateforme en ligne, donnant le coup d'envoi de sa campagne. Son programme qui prône \"l'union populaire\" est axé sur le social.",
@@ -37,7 +38,8 @@ const infosList = [
     "Ancien député de l'Essonne, au programme souverainiste, il a annoncé sa candidature le 26 septembre 2020.",
     "À l'issue du scrutin du second tour de la primaire du parti d'Europe-Ecologie-Les Verts, organisé en ligne et qui doit désigner le candidat du parti pour l'élection présidentielle de 2022, Yannick Jadot est arrivé en tête avec 51,03% des voix devant Sandrine Rousseau (48,97%). L'euro-député est le candidat des Verts pour la présidentielle 2022.",
     "Conseiller municipal de Bordeaux, il a déjà représenté le NPA à la dernière élection présidentielle. Le 28 juin, les délégués du parti ont voté pour présenter à nouveau sa candidature. Sa campagne vise le SMIC à 1800 euros nets, la nationalisation des banques, la gratuité des transports ou encore la liberté d'installation et de circulation pour les migrants.",
-    "Député du Béarn, il a annoncé sa candidature le 16 mars 2021. Il veut \"incarner la joie malgré la crise\"."
+    "Député du Béarn, il a annoncé sa candidature le 16 mars 2021. Il veut \"incarner la joie malgré la crise\".",
+    "L'ex-polémiste se présente pour la première fois à l'élection présidentielle. Il a officialisé sa candidature le 30 novembre 2021 dans une vidéo Youtube."
 ];
 
 var p = new URLSearchParams(window.location.search);

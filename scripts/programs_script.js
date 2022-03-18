@@ -40,8 +40,8 @@ for (var nb in [...Array(nbMax).keys()]) { document.getElementsByClassName("prog
 
 ///
 
-const candidatesList = ["Jean-Luc Mélanchon", "Valérie Pecresse", "Anne Hidalgo", "Natalie Arthaud", "Marine Le Pen", "Nicolas Dupont-Aignan", "Yannick Jadot", "Philippe Poutou", "Jean Lassalle"];
-const initialsList = ["jlm", "vp", "ah", "na", "mlp", "nda", "yj", "pp", "jl"];
+const candidatesList = ["Jean-Luc Mélenchon", "Valérie Pécresse", "Anne Hidalgo", "Natalie Arthaud", "Marine Le Pen", "Nicolas Dupont-Aignan", "Yannick Jadot", "Philippe Poutou", "Jean Lassalle", "Éric Zemmour", "Fabien Roussel", "Emmanuel Macron"];
+const initialsList = ["jlm", "vp", "ah", "na", "mlp", "nda", "yj", "pp", "jl", "ez", "fr", "em"];
 const namesList = [
     [
     "Augmenter le SMIC.<br>Salaire maximum autorisé.",
@@ -163,6 +163,30 @@ const namesList = [
     "Miser sur le nucléaire.",
     "Interdire le recours à la PMA sans père.",
     "Autres mesures … "
+    ],[
+    "Bientôt disponible ... ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+    ],[
+    "Bientôt disponible ... ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
     ]
 ]
 const hoverList = [
@@ -286,6 +310,30 @@ const hoverList = [
     "X souhaite renouveler et développer le nucléaire à grande échelle en ouvrant 14 réacteurs EPR en France d'ici 2050 (= un EPR est un réacteur nucléaire présenté par ceux qui le défendent comme capable de produire davantage d'électricité à partir de la même quantité de combustible qu’un réacteur de deuxième génération). X veut également interdire la construction d'éoliennes sur terre et en mer, car selon X, elle nuirait à la santé des gens, elle pourrait détériorer la beauté des paysages et elle produirait une énergie trop faible par rapport au nucléaire qu'il juge davantage fiable.",
     "X est pour l’interdiction de la procréation médicalement assistée (= PMA), dès lors qu'il n'y pas de pères. La PMA permet à un couple qui ne le peut pas d'avoir un enfant grâce à certaines techniques médicales (depuis septembre dernier, la PMA est accessible à toutes les femmes). X veut donc restreindre à la PMA aux seuls couples hétérosexuels et donc l’interdire dans le cas d'un couple de femmes par exemple.",
     "X veut aussi : interdire aux parents de donner un prénom étranger à leurs enfants ; verser 10 000 € à chaque famille qui vit en zone rurale pour toute nouvelle naissance ; supprimer le permis à point ; faire rembourser par les entreprises la moitié des frais de carburant de leurs salariés pour leur trajet domicile travail ; … "
+    ],[
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+    ],[
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
     ]
 ]
 

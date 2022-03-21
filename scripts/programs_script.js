@@ -164,17 +164,17 @@ const namesList = [
     "Interdire le recours à la PMA sans père.",
     "Autres mesures … "
     ],[
-    "Bientôt disponible ... ",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "“Révolutionner le travail”.",
+    "Investir dans les services publics.",
+    "850 € par mois pour tous les étudiants.",
+    "Tripler l’ISF.",
+    "Garantir à tout le monde le droit de “bien manger”.",
+    "Miser sur le nucléaire.",
+    "Refonte de la police.",
+    "Quitter l’OTAN.",
+    "Une ruralité heureuse.",
+    "Supprimer l'élection au suffrage universel du président de la République.<br>Redonner le pouvoir au Parlement et au peuple.",
+    "Autres mesures … "
     ],[
     "Bientôt disponible ... ",
     "",
@@ -204,7 +204,7 @@ const hoverList = [
     "X veut aussi : bloquer les prix des produits de première nécessité ; quitter l'OTAN ; mettre en place un budget d'un milliard d'euros pour lutter contre le sexisme et contre les violences faites aux femmes ; que l'allocation adulte handicapé soit indépendante des revenus du conjoint ; légaliser le cannabis ; mettre fin au « pass vaccinal » ; que l'état reprenne le contrôle de plusieurs secteurs clés de l'économie (aéroports, la française des jeux, autoroutes … ) ; … "
     ],[
     "X veut réduire les dépenses de l'état, pour ça X propose de supprimer 200 000 postes de fonctionnaires mais en parallèle d’en recruter 50 000 nouveaux pour « protéger soigner et éduquer » avec notamment 25 000 personnes pour le secteur de la santé.",
-    "X souhaite une augmentation des salaires, X parle d'une augmentation de 3% des salaires nets d'ici 2023, pour tous les salariés. Cette hausse serait permise par une prise en charge par l'état d'une partie des cotisations sociales. Cette augmentation concerne les gens qui travaillent dans le privé, l’augmentation des fonctionnaire serait négocié secteur par secteur. (Cette hausse ferais passer les personnes au SMIC de 1269€ net/mois à 1304€ net/mois mais toucherais également tout les autres salaires du privée).",
+    "X souhaite une augmentation des salaires, X parle d'une augmentation de 3% des salaires nets d'ici 2023, pour tous les salariés. Cette hausse serait permise par une prise en charge par l'état d'une partie des cotisations sociales. Cette augmentation concerne les gens qui travaillent dans le privé, l’augmentation des fonctionnaire serait négocié secteur par secteur. (Cette hausse ferais passer les personnes au SMIC (= salaire minimum) de 1269€ net/mois à 1304€ net/mois mais toucherais également tout les autres salaires du privée).",
     "X veut que les français travaillent davantage, pour cela X veut mettre fin à la règle des 35h/semaine et veut que le plan de travail soit négocié en interne dans chaque entreprise avec une base de 39h/semaine.",
     "Pour augmenter le temps de travail, X veut progressivement augmenter l'âge légal de départ à la retraite pour atteindre 65 ans en 2030. (contre 62 ans aujourd'hui).",
     "X veut donner accès à un « revenu jeune actif » (dispositif qu’X a déjà lancé dans une région) au moins de 26 ans qui ne sont ni étudiants, ni employés. Il s’agit d’un revenu de 500 à 670€/mois à condition qu’en échange les jeunes suivent une formation pour se former à un métier qui recrute.",
@@ -213,7 +213,7 @@ const hoverList = [
     "X veut que la France continue de miser sur le nucléaire en modernisant les centrales existantes pour augmenter leurs durée de vie mais aussi en créant de nouvelles centrales pour en finir avec le pétrole ou le gaz. X s'oppose à ce qu'elle appelle une « écologie punitive » (=écologie avec taxes et amendes). X veut développer des modes de transport en commun plus propres (métros,  bus électriques, …) et interdire à partir de 2035 les ventes de voitures neuves qui fonctionne à l'essence et au diesel. (=mesure déjà porté par la commission européenne à l'échelle de tous les pays de l'UE).",
     "X veut qu'il y ait 2h de français et 1h de maths en plus par semaine à l'école primaire et veut aussi créer un examen avant l'entrée en classe de sixième (=pour les cm2). Selon X le but n'est pas d'empêcher l'entrée en sixième mais serait de pouvoir repérer les élèves les plus en difficulté pour les rassembler dans des classes de remise à niveau en 6ème.",
     "X est favorable au pass vaccinal et veut ordonner en cas de nouveau pics de l'épidémie de COVID19 un confinement des personnes non vaccinées.",
-    "X veut aussi : avoir de plus fortes relations diplomatique avec les USA ; qu'une personne puisse avoir jusqu'à 200 000 € d'héritage sans payer d'impôts (seuil fixé à 100 000€ aujourd'hui) ; charger un comité de réaliser une grande simplification du fonctionnement de l'administration française ; abaisser la majorité pénale à 16 ans (=âge auquel une personne est jugée avec la même sévérité qu’un adulte) ; qu’un prélèvement soit fait directement sur le salaire d'une personne qui ne paye pas une amende ; la création d’une prime de 900€/an pour un premier enfant ; (jusqu'au 18 ans de l'enfant) ; pour encourager et relancer la natalité ; créer une « banque des jeunes » pour les aider à financer leurs études ou créer leur entreprise, (les jeunes auraient à rembourser leurs prêts que si ils atteignent un certain niveau de salaire, sinon l’état rembourserais à leurs place) ; … "
+    "X veut aussi : avoir de plus fortes relations diplomatique avec les USA ; qu'une personne puisse avoir jusqu'à 200 000 € d'héritage sans payer d'impôts (seuil fixé à 100 000€ aujourd'hui) ; charger un comité de réaliser une grande simplification du fonctionnement de l'administration française ; abaisser la majorité pénale à 16 ans (=âge auquel une personne est jugée avec la même sévérité qu’un adulte) ; qu’un prélèvement soit fait directement sur le salaire d'une personne qui ne paye pas une amende ; la création d’une prime de 900€/an pour un premier enfant ; (jusqu'au 18 ans de l'enfant) ; pour encourager et relancer la natalité ; créer une « banque des jeunes » pour les aider à financer leurs études ou créer leur entreprise, (les jeunes auraient à rembourser leurs prêts que si ils atteignent un certain niveau de salaire, sinon l’état rembourserait à leurs place) ; … "
     ],[
     "X souhaite accorder le droit de vote dès l'âge de 16 ans et veut aussi accorder le droit de vote aux étrangers pour les élections locales (élections municipales, …).",
     "X souhaite augmenter le SMIC (=salaire minimum) de 15 % ce qui correspond à une hausse d'environ 200€ net/mois. Le SMIC s'élèverait donc à 1450€/mois (contre 1269€/mois actuellement).",
@@ -311,17 +311,17 @@ const hoverList = [
     "X est pour l’interdiction de la procréation médicalement assistée (= PMA), dès lors qu'il n'y pas de pères. La PMA permet à un couple qui ne le peut pas d'avoir un enfant grâce à certaines techniques médicales (depuis septembre dernier, la PMA est accessible à toutes les femmes). X veut donc restreindre à la PMA aux seuls couples hétérosexuels et donc l’interdire dans le cas d'un couple de femmes par exemple.",
     "X veut aussi : interdire aux parents de donner un prénom étranger à leurs enfants ; verser 10 000 € à chaque famille qui vit en zone rurale pour toute nouvelle naissance ; supprimer le permis à point ; faire rembourser par les entreprises la moitié des frais de carburant de leurs salariés pour leur trajet domicile travail ; … "
     ],[
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "X souhaite « révolutionner le travail » et résume cela par la formule « travailler tous, travailler moins, travailler mieux ». Pour cela, X veut augmenter le SMIC (= salaire minimum) pour le passer à 1500 € net/mois (contre 1269 € net/mois aujourd'hui). X souhaite également instaurer la semaine de travail de 32 h sans diminution de salaire (contre 35 h aujourd'hui), l'objectif étant de mieux répartir le travail au sein de la population pour éviter les sans-emploi. X veut aussi abaisser l'âge de départ à la retraite à taux plein à 60 ans et souhaite aussi permettre à ceux qui ont un travail pénible de pouvoir partir plus tôt.",
+    "X veut réinvestir dans les services publics en augmentant par exemple le budget de l'éducation nationale de 45 % (ce qui représente 25 milliards d'euros supplémentaires) et celui de l'enseignement supérieur de 43 %.  Plus largement, X propose de recruter 500 000 fonctionnaires dont 100 000 emplois dans l'hôpital (= infirmiers, aides soignants, aides à domicile), 100 000 personnes dans les maisons de retraite. X veut aussi créer 90 000 emplois d'enseignants. Le salaire de tous les fonctionnaires (= personnes employées par l'état) serait augmenté pour que les enseignants par exemple ai une augmentation de salaire de 30 %.",
+    "X veut créer un revenu étudiant de 850 €/mois minimum, il serait versé à tous les étudiants sans conditions (= sans conditions sur le revenu de leurs parents, … ) pour leur permettre d'être plus autonomes et de mieux vivre pendant leurs études. X veut aussi que l’accès au RSA (= revenu de solidarité active) soit étendu aux 18-25 ans. X veut également que les personnes en alternance soient payées au moins au SMIC, et veut tendre vers le zéro jeunes au chômage. Pour cela X, souhaite que chaque étudiant qui termine ses études ai une offre d'emploi en CDI correspondant à ses compétences. Pour le permettre, X veut que les entreprises de plus de 50 salariés soient obligées de réserver au moins 10 % des nouvelles embauches aux moins de 25 an.",
+    "Pour répondre à la question du financement de ses mesures, X veut remettre en place l’ISF (= impôt sur la fortune qui concernait les français ayant un patrimoine d'au moins 1,3 million d'euros et qui a été supprimé par E.Macron pour être remplacé par l'impôt sur la fortune immobilière, un impôt qui ne prend en compte que les biens immobiliers). X propose au-delà de ça de tripler le montant de cet impôt.",
+    "X veut que chacun puisse bien manger, pour cela X veut généraliser dans tout le pays le repas à 1 € dans les cantines scolaires, favoriser les produits bio et locaux, défendre une agriculture principalement française à taille humaine, sans pesticides, et qui garantit des prix de base rémunérateurs pour les agriculteurs. Pour cela, X veut interdire l'importation de produits ne respectant pas les normes de production française, afin d'éviter une forme de concurrence déloyale. X veut également augmenter les retraites agricoles pour qu'elle ne soit pas en dessous du SMIC, avec pour objectif un total de 500 000 agriculteurs en France d'ici à 2030 (= contre près de 389 000 actuellement). Cela passe selon lui par la création de postes d'enseignants et formateurs agricole et plus largement par un investissement dans la recherche pour l'agriculture.",
+    "X veut miser sur le nucléaire tout en continuant de développer les énergies renouvelables (= éoliennes, énergie solaire, … ). Selon X, il faut miser sur le nucléaire parce que c'est une source d'énergie qui n'émet que très peu de CO2, qui est non intermittente (= ne dépends pas de la météo) et qui permet à la France d'assurer son indépendance pour sa production d'électricité. X veut construire 6 à 8 réacteurs nucléaires nouvelles générations.",
+    "En matière de sécurité, X veut créer une police nationale de proximité de 30 000 personnes qui aurait pour objectif de « reconquérir » certains quartiers abandonnés par l'état et de recréer un lien entre la police et la population. X veut créer une infraction spécifique concernant les violences faites contre les policiers et augmenter leurs salaires.",
+    "X veut quitter l'OTAN (= organisation militaire de pays d'Europe et d'Amérique du Nord, menée principalement par les USA). En effet, pour X, la France doit se détacher des USA est retrouver davantage d'indépendance sur le plan militaire. X est même favorable à la dissolution de l'OTAN et souhaite que la France crée une nouvelle organisation avec l’Europe et ses états voisins. X veut également mettre fin aux opérations militaires françaises à l'étranger et fermer toutes les bases militaires françaises présentes à l'étranger.",
+    "X veut réinvestir dans les zones rurales, pour cela, X souhaite rouvrir les maternités de proximité (en 20 ans, 40 % d'entre elles ont fermé). X souhaite aussi lutter contre ce que les déserts médicaux en faisant en sorte que tout le monde est un établissement de santé à moins de trente minutes de transport de son domicile. X souhaite aussi rouvrir des petites lignes SNCF pour ces territoires éloignés et mettre en place un plan national de rénovation et de construction de logements dans ces petites villes ou alors villages.",
+    "X veut supprimer l'élection au suffrage universel du président de la République pour qu’il ne soit plus élu par la population et qu’il n’ai plus qu’un rôle de représentant de la nation. Le pays serait réellement dirigé est gouverné par le Premier ministre et son gouvernement, qui serait lui élu par l’Assemblée nationale, ceci pour éviter que le pouvoir soit concentré sur une seule personne. X souhaite donc que l’Assemblée nationale joue un rôle plus important. X veut aussi supprimer l'article 49:3 de la constitution (= qui permet aujourd'hui au Premier ministre de passer en force une loi, malgré un avis contraire de l'Assemblée nationale), et veut également mettre en place un « droit de pétition », qui permettrait à 500 000 citoyens de pouvoir faire inscrire une proposition de loi à l'ordre du jour du parlement afin qu’il s'en saisisse et puisse discuter et voter sur cette loi.",
+    "X veut aussi : supprimer Parcoursup ; rendre gratuits les transports en commun et le permis de conduire pour les moins de 25 ans ; créer 350 000 nouveaux logements CROUS destinés aux étudiants ainsi que 200 000 nouveaux logements sociaux par an ; allouer 1 milliard d'euros à la lutte contre les violences sexuelles et sexistes ; rendre les protections menstruelles totalement gratuite ; inscrire l'avortement comme un droit fondamental dans la constitution ; … "
     ],[
     "",
     "",

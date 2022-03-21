@@ -95,6 +95,16 @@ li {
     animation: hider_slide 1s ease-in-out 0.45s paused;
 }
 
+#footer {
+    opacity: 50%;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 2vh;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
 /*---------- div effects ----------*/
 
 .div_grad {

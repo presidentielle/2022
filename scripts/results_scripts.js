@@ -10,6 +10,7 @@ function select(nb) {
     document.getElementsByClassName("id_div")[0].style.boxShadow = "0 0 50px 0px "+colorsList[nb];
     document.getElementById("prog_name").innerHTML = candidatesList[nb];
     document.getElementById("program_link").href = programsList[nb];
+    for (var i in [...Array(candidatesList.length).keys()]) { document.getElementsByClassName("video")[i].src = videoList[i][nb]; }
 }
 
 const candidatesList = ["Jean-Luc Mélenchon", "Valérie Pécresse", "Anne Hidalgo", "Natalie Arthaud", "Marine Le Pen", "Nicolas Dupont-Aignan", "Yannick Jadot", "Philippe Poutou", "Jean Lassalle", "Éric Zemmour", "Fabien Roussel", "Emmanuel Macron"];
@@ -17,20 +18,6 @@ const partysList = ["La France insoumise (LFI)", "Les Républicains (LR)", "Part
 const colorsList = ["#cc2443", "#0066cc", "#FF8080", "#bb0000", "#0D378A", "#0082C4", "#00c000", "#bb0000", "#26c4ec", "#0D378A", "#dd0000", "#ffeb00"];
 const initialsCandList = ["jlm", "vp", "ah", "na", "mlp", "nda", "yj", "pp", "jl", "ez", "fr", "em"];
 const initialsPartList = ["lfi", "lr", "ps", "lo", "rn", "dlf", "eelv", "npa", "res", "rec", "pcf", "lrem"];
-const programsList = [
-    "https://melenchon2022.fr/programme/",
-    "https://valeriepecresse.fr/projets/",
-    "https://www.2022avechidalgo.fr/notre_programme",
-    "https://www.nathalie-arthaud.info/programme",
-    "https://mlafrance.fr/programme",
-    "https://2022nda.fr/",
-    "https://www.jadot2022.fr/programme",
-    "https://poutou2022.org/programme",
-    "https://jl2022.fr/#projet",
-    "https://programme.zemmour2022.fr/",
-    "FR",
-    "EM"
-];
 const infosList = [
     "Déjà candidat aux élections de 2012 et 2017, il propose sa candidature le 8 novembre 2020, sollicitant une « investiture populaire » de 150 000 personnes pour valider sa candidature, ce qu'il obtient rapidement.",
     "Ministre de l'Enseignement supérieur puis ministre du Budget sous la présidence de Nicolas Sarkozy, elle devient présidente du conseil régional d'Île-de-France en 2015 et annonce sa candidature le 22 juillet 2021 à la primaire de la droite. Elle remporte le congrès des Républicains le 4 décembre 202129. Outre LR et le mouvement « Libres ! », elle est aussi soutenue par l'UDI et Les Centristes.",
@@ -45,6 +32,49 @@ const infosList = [
     "Député de la 20e circonscription du Nord depuis 2017, il devient secrétaire national du Parti communiste français en 2018. Il annonce sa candidature le 26 novembre 2020. Les militants du parti confirment leur soutien à sa candidature lors d'une consultation interne en mai 2021.",
     "Ministre de l'Économie, de l'Industrie et du Numérique sous la présidence de François Hollande. Élu président de la République en 2017, il officialise sa candidature à un second mandat le 3 mars 2022 dans une « Lettre aux français »."
 ];
+const programsList = [
+    "https://melenchon2022.fr/programme/",
+    "https://valeriepecresse.fr/projets/",
+    "https://www.2022avechidalgo.fr/notre_programme",
+    "https://www.nathalie-arthaud.info/programme",
+    "https://mlafrance.fr/programme",
+    "https://2022nda.fr/",
+    "https://www.jadot2022.fr/programme",
+    "https://poutou2022.org/programme",
+    "https://jl2022.fr/#projet",
+    "https://programme.zemmour2022.fr/",
+    "https://www.fabienroussel2022.fr/le_programme",
+    "EM"
+];
+const videoList = [
+    [
+        "https://www.youtube.com/embed/qgLorzVBy_U",
+        "https://www.youtube.com/embed/vHO2MI-J9NI",
+        "https://www.youtube.com/embed/THcPKzw9sVQ",
+        "https://www.youtube.com/embed/tEAgvk4HQ6w",
+        "https://www.youtube.com/embed/Q5WJrOebzHo",
+        "https://www.youtube.com/embed/JIfxGah-j34",
+        "https://www.youtube.com/embed/okFxckRQhwI",
+        "https://www.youtube.com/embed/0uubrn0vt78",
+        "https://www.youtube.com/embed/kF_aXyY2FzQ",
+        "https://www.youtube.com/embed/vybg3RSQekg",
+        "https://www.youtube.com/embed/OeJjaSXpR8g",
+        "em"
+    ],[
+        "https://www.youtube.com/embed/ZqYezph-hgg",
+        "vp",
+        "https://www.youtube.com/embed/89gh4O4Jh9c",
+        "na",
+        "https://www.youtube.com/embed/CMpqrm78vl4",
+        "https://www.youtube.com/embed/y0W6OzWb8tI",
+        "https://www.youtube.com/embed/sp0nSHxeNIk",
+        "https://www.youtube.com/embed/GSUmEZPmNPg",
+        "https://www.youtube.com/embed/fPgHWkXM7ZU",
+        "https://www.youtube.com/embed/RkH3QjL7O80",
+        "fr",
+        "em"
+    ]
+]
 
 var p = new URLSearchParams(window.location.search);
 var nb = p.get("R");

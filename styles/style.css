@@ -100,9 +100,8 @@ body {
 /*---------- btn ----------*/
 
 .btn {
-    margin-right: 5%;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 10px;
@@ -111,12 +110,11 @@ body {
 
 .start_btn {
     border: 2px solid white;
-    font-size: 5vh;
+    font-size: 4vh;
     animation: 3s opacity forwards;
 }
 
 .explain_btn {
-    margin-right: 5%;
     border: 2px solid white;
     font-size: 3.5vh;
 }
@@ -177,6 +175,16 @@ body {
 }
 
 /*---------- keyframes ----------*/
+
+@media (max-width: 700px) {
+    .explain_div {padding-top: 5vh; }
+    .explain_text { font-size: 8vw; line-height: 7vh; }
+    .start_btn { font-size: 4vh; padding: 2vh;}
+}
+
+@media (max-height: 500px) {
+    .explain_text { font-size: 7vh; line-height: 9vh; }
+}
 
 @keyframes opacity {
     from { opacity: 0%; }

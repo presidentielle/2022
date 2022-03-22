@@ -110,6 +110,10 @@ body {
 }
 
 .start_btn {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
     border: 2px solid white;
     font-size: 5vh;
     animation: 3s opacity forwards;
@@ -177,6 +181,16 @@ body {
 }
 
 /*---------- keyframes ----------*/
+
+@media (max-width: 700px) {
+    .explain_div {padding-top: 5vh; }
+    .explain_text { font-size: 8vw; line-height: 7vh; }
+    .start_btn { font-size: 4vh; padding: 2vh;}
+}
+
+@media (max-height: 500px) {
+    .explain_text { font-size: 7vh; line-height: 9vh; }
+}
 
 @keyframes opacity {
     from { opacity: 0%; }

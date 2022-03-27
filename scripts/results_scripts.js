@@ -71,7 +71,7 @@ const videoList = [
         "https://www.youtube.com/embed/GSUmEZPmNPg",
         "https://www.youtube.com/embed/fPgHWkXM7ZU",
         "https://www.youtube.com/embed/RkH3QjL7O80",
-        "fr",
+        "https://www.youtube.com/embed/1HFbzdgFA8I",
         "em"
     ]
 ]
